@@ -11,6 +11,10 @@ module.exports = {
     },
     extend: {
       colors: {
+        gray: {
+          750: '#202024',
+          850: '#1E1F21'
+        },
         cyan: {
           500: '#61dafb'
         },
@@ -20,8 +24,13 @@ module.exports = {
       },
       borderRadius: {
         md: '4px'
+      },
+      boxShadow: {
+        '3xl': '0 3.2px 20px 3.2px rgb(18,18,20)',
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar')
+  ],
 }
