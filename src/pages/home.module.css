@@ -1,0 +1,16 @@
+.animate {
+    animation: animateblur 1s;
+    position: relative;
+}
+
+@keyframes animateblur  {
+    from {
+        filter: blur(8px);
+        right: -250px;
+    }
+    to {
+        filter: blur(0px);
+        right: 0;
+    }
+}
+

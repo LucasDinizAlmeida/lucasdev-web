@@ -1,4 +1,4 @@
-import { Desktop, Cpu } from 'phosphor-react'
+import { Desktop, Cpu, ChatsCircle, Code } from 'phosphor-react'
 import { StagesDev } from '../StagesDev'
 
 export function ContentFullStack() {
@@ -17,19 +17,19 @@ export function ContentFullStack() {
             Vamos tirar aquela ideia do papel e desenvolver seu projeto?
           </span>
           <StagesDev
-            icon={Desktop}
-            title='Entrevista para conhecer a idéia.'
-            subtitle='Um bate papo para conhecer mais o projeto, as preferências, o grau de complexidade o projeto e muito mais.'
+            icon={ChatsCircle}
+            title='Entrevista para conhecer o projeto.'
+            subtitle='Um bate papo para conhecer mais a ideia, as preferências, o grau de complexidade para tornar o projeto real e muito mais.'
+          />
+          <StagesDev
+            icon={Code}
+            title='Desenvolvimento do projeto'
+            subtitle='Aqui que a aplicação é desenvolvida com as tecnologias mais atuais do mercado proporcionando modernidade e segurança para o projeto.'
           />
           <StagesDev
             icon={Desktop}
-            title='Entrevista para conhecer a idéia.'
-            subtitle='Um bate papo para conhecer mais o projeto, as preferências, o grau de complexidade o projeto e muito mais.'
-          />
-          <StagesDev
-            icon={Desktop}
-            title='Entrevista para conhecer a idéia.'
-            subtitle='Um bate papo para conhecer mais o projeto, as preferências, o grau de complexidade o projeto e muito mais.'
+            title='Entrega do projeto já online e totalmente operacional'
+            subtitle='Deploy da aplicação atendendo os prazos de entrega já estipulados no início.'
           />
         </div>
       </div>

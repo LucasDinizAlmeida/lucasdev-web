@@ -10,10 +10,13 @@ export function StagesDev({ icon: Icon, subtitle, title }: StageDevProps) {
 
   return (
     <div className="min-w-[310px] max-w-[600px] p-7 flex mt-5 items-center gap-16 bg-gray-850 hover:bg-gray-900 transition-colors rounded-lg">
-      <Icon
-        size={65}
-        color='#eba417'
-      />
+      <div className='min-w-[45px]'>
+        <Icon
+          size={45}
+          color='#eba417'
+        />
+      </div>
+
 
       <div className='flex flex-col gap-4'>
         <p className='font-light text-lg text-white'>
