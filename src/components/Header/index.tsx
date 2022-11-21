@@ -10,13 +10,13 @@ export function Header() {
 
   const { asPath } = useRouter()
   const { isOpenMenu, setIsOpenMenu } = useMenuContext()
-  console.log(isOpenMenu)
+
 
   return (
     <header className="h-20 z-10 fixed top-0 right-0 left-0 w-100% bg-gray-750 shadow-3xl">
-      <div className="flex justify-between items-center mx-auto h-20 max-w-[1114px] px-4">
-        <div className="w-20 lg:w-auto">
-          <img src="/logo.svg" />
+      <div className="flex justify-between items-center mx-auto h-20 max-w-[1350px] px-4">
+        <div className="lg:w-auto">
+          <img src="/logo-lucas-dev.png" className="w-32 lg:w-52" />
         </div>
 
 

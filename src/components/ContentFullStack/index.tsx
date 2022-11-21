@@ -5,6 +5,25 @@ export function ContentFullStack() {
 
   return (
     <div className="w-full my-20 bg-gray-750">
+
+      <div className="flex flex-col lg:flex-row gap-36 items-center justify-between my-12  mx-auto py-20 max-w-[1114px] px-4">
+        <h2 className="block font-semibold text-5xl leading-[54px] text-gray-100">
+          Vamos tirar aquela ideia do papel e desenvolver seu projeto?
+        </h2>
+
+        <div className='max-w-[500px]'>
+          <ul className='flex flex-row flex-wrap items-center justify-items-start gap-7 text-cyan-500 font-semibold text-xl'>
+            <li>E-commerce</li>
+            <li>Landing page personalizada</li>
+            <li>plataforma web</li>
+            <li>Aplicativos mobile</li>
+            <li>Solução de bugs</li>
+            <li>Site institucional</li>
+          </ul>
+        </div>
+      </div>
+
+
       <div className="flex flex-col lg:flex-row bg-inherit justify-between gap-10 items-center mx-auto py-20 max-w-[1114px] px-4">
         <div className='relative'>
           <Desktop size={65} color='#61dafb' className='absolute -top-6 -right-6' />
@@ -13,9 +32,6 @@ export function ContentFullStack() {
         </div>
 
         <div>
-          <span className='text-xl max-lg:mt-10 font-normal text-yellow-500 block mb-10'>
-            Vamos tirar aquela ideia do papel e desenvolver seu projeto?
-          </span>
           <StagesDev
             icon={ChatsCircle}
             title='Entrevista para conhecer o projeto.'
